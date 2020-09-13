@@ -39,7 +39,7 @@
   .grow {
     margin-top: 0;
     &__bottom {
-      width: 100%;
+      width: 100rem;
     }
     &__list {
       // single item
@@ -84,7 +84,7 @@
   //footer
   .main-footer {
     &__img-mobileTop {
-      width: 100%;
+      width: 100rem;
     }
     .footer {
       .footer__news {
