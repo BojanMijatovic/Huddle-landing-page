@@ -179,9 +179,9 @@ html {
       .main-footer .footer__icons li {
         margin: 2rem 2rem 3rem 0; }
   .main-footer .attribution {
-    text-align: center; }
+    text-align: center;
+    color: #00252e; }
     .main-footer .attribution a {
-      color: #ffffff;
       text-decoration: none; }
 
 @media screen and (min-width: 1044px) {
@@ -209,6 +209,8 @@ html {
 
   .grow {
     margin-top: 0; }
+    .grow__bottom {
+      width: 100%; }
     .grow__list-item {
       display: flex;
       align-items: center; }
@@ -234,6 +236,8 @@ html {
   .subscribe {
     margin: 6rem 0; }
 
+  .main-footer__img-mobileTop {
+    width: 100%; }
   .main-footer .footer .footer__news {
     display: flex;
     align-items: flex-end; }
@@ -251,7 +255,8 @@ html {
     .main-footer .footer__links-info {
       margin-top: 1rem;
       display: block;
-      width: 50%; }
+      width: 50%;
+      font-size: 1.2rem; }
     .main-footer .footer__links-contacts {
       margin-top: 2rem; } }
 
