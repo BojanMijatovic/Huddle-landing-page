@@ -210,7 +210,7 @@ html {
   .grow {
     margin-top: 0; }
     .grow__bottom {
-      width: 100rem; }
+      width: 95rem; }
     .grow__list-item {
       display: flex;
       align-items: center; }
@@ -237,7 +237,7 @@ html {
     margin: 6rem 0; }
 
   .main-footer__img-mobileTop {
-    width: 100rem; }
+    width: 95rem; }
   .main-footer .footer .footer__news {
     display: flex;
     align-items: flex-end; }
