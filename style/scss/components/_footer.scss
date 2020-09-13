@@ -1,0 +1,94 @@
+.main-footer {
+  color: #ffffff;
+
+  .footer {
+    background-color: $very-Dark-Cyan;
+    &__news {
+      margin-top: -1rem;
+      &-text {
+        margin-bottom: 2.5rem;
+      }
+      &-title {
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+      }
+      &-info {
+        font-size: 1.2rem;
+      }
+    }
+
+    // form
+    &__form {
+      margin: 2rem 0 3rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &-input {
+        font-size: 1.2rem;
+        padding: 0.5rem;
+        border: none;
+        border-radius: 0.4rem;
+      }
+
+      a {
+        margin-right: 1rem;
+        text-decoration: none;
+        background-color: $pink;
+        color: #ffffff;
+        font-size: 1.2rem;
+        padding: 0.5rem 1.5rem;
+        border-radius: 0.8rem;
+        font-weight: 600;
+      }
+    }
+
+    // links
+    &__links {
+      &-logo {
+        img {
+          color: #ffffff;
+          width: 13rem;
+          height: 2rem;
+        }
+        margin-bottom: 1rem;
+      }
+      &-info {
+        margin-bottom: 2rem;
+      }
+      // contacts
+      &-contacts {
+        list-style: none;
+        li {
+          display: flex;
+          align-items: center;
+          margin: 2rem 0;
+          img {
+            margin-right: 2rem;
+          }
+          p {
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+
+    // icons
+    &__icons {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      li {
+        margin: 2rem 2rem 3rem 0;
+      }
+    }
+  }
+
+  .attribution {
+    text-align: center;
+    a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+  }
+}

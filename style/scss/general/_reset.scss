@@ -8,3 +8,14 @@ html {
   font-size: 62.5%;
   font-family: 'Open Sans', sans-serif;
 }
+
+.container {
+  margin: 0 1.8rem;
+}
+
+//  media
+@mixin media-lg {
+  @media screen and(min-width: 1044px) {
+    @content;
+  }
+}

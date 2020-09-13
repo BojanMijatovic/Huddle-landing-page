@@ -8,4 +8,251 @@ html {
   font-size: 62.5%;
   font-family: 'Open Sans', sans-serif; }
 
+.container {
+  margin: 0 1.8rem; }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  align-items: center; }
+  .header__logo img {
+    width: 7rem;
+    height: 2rem; }
+  .header__btn {
+    margin-right: 0.5rem; }
+    .header__btn a {
+      text-decoration: none;
+      color: #ff52bf;
+      border: 1px solid #ff52bf;
+      padding: 0.4rem 1.5rem;
+      border-radius: 1.5rem; }
+
+.hero {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 8rem; }
+  .hero__title {
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 2rem; }
+  .hero__subtitle {
+    text-align: center;
+    color: #00252e;
+    font-size: 1.4rem;
+    margin-bottom: 4rem; }
+  .hero__btn {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 1rem 3rem;
+    background-color: #ff52bf;
+    border: 1px solid #ff52bf;
+    border-radius: 2.5rem;
+    font-weight: 700; }
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .about__img {
+    margin: 2rem; }
+    .about__img img {
+      width: 100%; }
+  .about__list {
+    list-style: none; }
+    .about__list-item {
+      margin: 5rem 0; }
+      .about__list-item img {
+        width: 2.8rem;
+        height: 2.5rem; }
+      .about__list-item h2 {
+        font-size: 5rem;
+        font-weight: 700;
+        color: #00252e; }
+      .about__list-item p {
+        text-align: center;
+        font-size: 1.2rem; }
+
+.grow {
+  margin-top: 8rem; }
+  .grow__top-mob {
+    width: 100%;
+    margin-bottom: -4px; }
+  .grow__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    background-color: #f5faff; }
+    .grow__list-item {
+      text-align: center; }
+      .grow__list-item img {
+        width: 80%; }
+    .grow__list-title {
+      margin-top: 3rem;
+      font-size: 1.5rem; }
+    .grow__list-info {
+      font-size: 1.2rem;
+      padding: 0.5rem 3.5rem;
+      margin-bottom: 3rem; }
+
+.subscribe {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .subscribe__title {
+    text-align: center;
+    color: #00252e;
+    font-size: 2.2rem;
+    margin-bottom: 2rem; }
+  .subscribe__btn {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    padding: 0.8rem 2rem;
+    background-color: #ff52bf;
+    border: 1px solid #ff52bf;
+    border-radius: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10rem; }
+
+.main-footer {
+  color: #ffffff; }
+  .main-footer .footer {
+    background-color: #00252e; }
+    .main-footer .footer__news {
+      margin-top: -1rem; }
+      .main-footer .footer__news-text {
+        margin-bottom: 2.5rem; }
+      .main-footer .footer__news-title {
+        margin-bottom: 2rem;
+        font-size: 1.5rem; }
+      .main-footer .footer__news-info {
+        font-size: 1.2rem; }
+    .main-footer .footer__form {
+      margin: 2rem 0 3rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .main-footer .footer__form-input {
+        font-size: 1.2rem;
+        padding: 0.5rem;
+        border: none;
+        border-radius: 0.4rem; }
+      .main-footer .footer__form a {
+        margin-right: 1rem;
+        text-decoration: none;
+        background-color: #ff52bf;
+        color: #ffffff;
+        font-size: 1.2rem;
+        padding: 0.5rem 1.5rem;
+        border-radius: 0.8rem;
+        font-weight: 600; }
+    .main-footer .footer__links-logo {
+      margin-bottom: 1rem; }
+      .main-footer .footer__links-logo img {
+        color: #ffffff;
+        width: 13rem;
+        height: 2rem; }
+    .main-footer .footer__links-info {
+      margin-bottom: 2rem; }
+    .main-footer .footer__links-contacts {
+      list-style: none; }
+      .main-footer .footer__links-contacts li {
+        display: flex;
+        align-items: center;
+        margin: 2rem 0; }
+        .main-footer .footer__links-contacts li img {
+          margin-right: 2rem; }
+        .main-footer .footer__links-contacts li p {
+          font-size: 1.2rem; }
+    .main-footer .footer__icons {
+      display: flex;
+      align-items: center;
+      list-style: none; }
+      .main-footer .footer__icons li {
+        margin: 2rem 2rem 3rem 0; }
+  .main-footer .attribution {
+    text-align: center; }
+    .main-footer .attribution a {
+      color: #ffffff;
+      text-decoration: none; }
+
+@media screen and (min-width: 1044px) {
+  .header {
+    margin: 3rem 4rem; }
+    .header__logo img {
+      width: 12rem;
+      height: 2rem; }
+
+  .hero__title {
+    font-size: 3rem;
+    font-weight: 700; }
+
+  .hero__subtitle {
+    padding: 0 25rem; }
+
+  .about__img img {
+    width: 60rem; }
+  .about__list {
+    display: flex; }
+    .about__list-item {
+      margin: 5rem 10rem; }
+      .about__list-item h2 {
+        font-size: 7rem; }
+
+  .grow {
+    margin-top: 0; }
+    .grow__list-item {
+      display: flex;
+      align-items: center; }
+      .grow__list-item img {
+        height: 30rem;
+        margin: 4rem; }
+      .grow__list-item p {
+        padding: 0 6rem; }
+      .grow__list-item:first-of-type {
+        flex-direction: row-reverse; }
+        .grow__list-item:first-of-type h3 {
+          font-size: 2rem;
+          margin-bottom: 1.5rem; }
+        .grow__list-item:first-of-type p {
+          padding: 0 6rem; }
+      .grow__list-item:last-of-type {
+        flex-direction: row-reverse; }
+        .grow__list-item:last-of-type p {
+          padding: 0 6rem; }
+    .grow__list-title {
+      font-size: 2rem; }
+
+  .subscribe {
+    margin: 6rem 0; }
+
+  .main-footer .footer .footer__news {
+    display: flex;
+    align-items: flex-end; }
+    .main-footer .footer .footer__news-info {
+      padding: 1rem 15rem 0 0; }
+  .main-footer .footer__form {
+    margin-right: 3rem; }
+    .main-footer .footer__form-input {
+      margin-right: 2rem; }
+  .main-footer .footer__links {
+    margin-top: 2rem;
+    display: flex; }
+    .main-footer .footer__links-logo {
+      margin-top: 3rem; }
+    .main-footer .footer__links-info {
+      margin-top: 1rem;
+      display: block;
+      width: 50%; }
+    .main-footer .footer__links-contacts {
+      margin-top: 2rem; } }
+
 /*# sourceMappingURL=main.css.map */
